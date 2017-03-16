@@ -8,6 +8,8 @@ This gem implements the `rspec` command for
 This fork hacks in OSX RubyMine extension paths to load path so it doesn't
 fail to require dependencies if Spring server was started outside of RubyMine.
 
+Related to this bug: https://youtrack.jetbrains.com/issue/RUBY-18207
+
 Usage in Gemfile:
 
 ``` ruby
